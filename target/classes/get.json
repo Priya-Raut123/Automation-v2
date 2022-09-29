@@ -1,0 +1,1886 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "borrowerData": {
+          "type": "object",
+          "properties": {
+            "borrowerUuid": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "dob": {
+              "type": "string"
+            },
+            "middleName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "isItdVerified": {
+              "type": "integer"
+            },
+            "email": {
+              "type": "string"
+            },
+            "mobile": {
+              "type": "string"
+            },
+            "altMobile": {
+              "type": "string"
+            },
+            "loanRequired": {
+              "type": "integer"
+            },
+            "collegePayout": {
+              "type": "integer"
+            },
+            "existingEmi": {
+              "type": "string"
+            },
+            "currentCountry": {
+              "type": "string"
+            },
+            "currentCity": {
+              "type": "string"
+            },
+            "currentState": {
+              "type": "string"
+            },
+            "currentAddress": {
+              "type": "string"
+            },
+            "currentAddressLineTwo": {
+              "type": "string"
+            },
+            "currentLandmark": {
+              "type": "string"
+            },
+            "currentPincode": {
+              "type": "string"
+            },
+            "currentResidenceTypeId": {
+              "type": "integer"
+            },
+            "yearInCurrentAddress": {
+              "type": "string"
+            },
+            "permanentAddress": {
+              "type": "string"
+            },
+            "permanentLandmark": {
+              "type": "string"
+            },
+            "permanentCountry": {
+              "type": "string"
+            },
+            "permanentPincode": {
+              "type": "string"
+            },
+            "collegeName": {
+              "type": "string"
+            },
+            "collegeId": {
+              "type": "string"
+            },
+            "universityCountry": {
+              "type": "string"
+            },
+            "courseCategory": {
+              "type": "string"
+            },
+            "courseName": {
+              "type": "string"
+            },
+            "followuptime": {
+              "type": "string"
+            },
+            "takeIn": {
+              "type": "string"
+            },
+            "stream": {
+              "type": "string"
+            },
+            "subStream": {
+              "type": "string"
+            },
+            "isFldg": {
+              "type": "string"
+            },
+            "isExotelRegistered": {
+              "type": "string"
+            },
+            "streamName": {
+              "type": "string"
+            },
+            "subStreamName": {
+              "type": "string"
+            },
+            "permanentCity": {
+              "type": "string"
+            },
+            "permanentState": {
+              "type": "string"
+            },
+            "experience": {
+              "type": "string"
+            },
+            "year": {
+              "type": "string"
+            },
+            "admissionStatus": {
+              "type": "string"
+            },
+            "twelthmarks": {
+              "type": "string"
+            },
+            "twelthCity": {
+              "type": "string"
+            },
+            "twelthschool": {
+              "type": "string"
+            },
+            "twelthyear": {
+              "type": "string"
+            },
+            "collagemarks": {
+              "type": "string"
+            },
+            "ugcollegeCity": {
+              "type": "string"
+            },
+            "degree": {
+              "type": "string"
+            },
+            "collegeyear": {
+              "type": "string"
+            },
+            "tenthmarks": {
+              "type": "string"
+            },
+            "tenthschool": {
+              "type": "string"
+            },
+            "upwardsStatus": {
+              "type": "string"
+            },
+            "productType": {
+              "type": "string"
+            },
+            "productTypeId": {
+              "type": "string"
+            },
+            "productSubType": {
+              "type": "string"
+            },
+            "caseSource": {
+              "type": "string"
+            },
+            "caseSubSource": {
+              "type": "string"
+            },
+            "courseStartDate": {
+              "type": "string"
+            },
+            "panNo": {
+              "type": "string"
+            },
+            "courseType": {
+              "type": "string"
+            },
+            "courseDuration": {
+              "type": "string"
+            },
+            "lastCurrentCtc": {
+              "type": "string"
+            },
+            "netMonthlyIncome": {
+              "type": "string"
+            },
+            "lastCurrentEmployer": {
+              "type": "string"
+            },
+            "employmentStatusId": {
+              "type": "string"
+            },
+            "hlMtInstallment": {
+              "type": "integer"
+            },
+            "tenor": {
+              "type": "integer"
+            },
+            "isRepayment": {
+              "type": "boolean"
+            },
+            "course": {
+              "type": "string"
+            },
+            "advanceEmi": {
+              "type": "string"
+            },
+            "apsadvanceEmi": {
+              "type": "string"
+            },
+            "disbursementAmount": {
+              "type": "string"
+            },
+            "courseFee": {
+              "type": "string"
+            },
+            "utr": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string"
+            },
+            "disbursementDatetime": {
+              "type": "string"
+            },
+            "isDisbursed": {
+              "type": "string"
+            },
+            "whjUserName": {
+              "type": "string"
+            },
+            "whjUserEmail": {
+              "type": "string"
+            },
+            "whjUserMobile": {
+              "type": "string"
+            },
+            "leadType": {
+              "type": "string"
+            },
+            "partnerIdentifier": {
+              "type": "string"
+            },
+            "disbursedId": {
+              "type": "string"
+            },
+            "umrn": {
+              "type": "string"
+            },
+            "studentFirstName": {
+              "type": "string"
+            },
+            "studentMiddleName": {
+              "type": "string"
+            },
+            "studentLastName": {
+              "type": "string"
+            },
+            "salutation": {
+              "type": "string"
+            },
+            "maritalStatus": {
+              "type": "string"
+            },
+            "aadharNo": {
+              "type": "string"
+            },
+            "new_status": {
+              "type": "integer"
+            },
+            "lenderName": {
+              "type": "string"
+            },
+            "borrowerName": {
+              "type": "string"
+            },
+            "currentCityState": {
+              "type": "string"
+            },
+            "permanentCityState": {
+              "type": "string"
+            },
+            "banking": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "bothId": {
+                      "type": "string"
+                    },
+                    "accholdername": {
+                      "type": "string"
+                    },
+                    "bankname": {
+                      "type": "string"
+                    },
+                    "ifsc": {
+                      "type": "string"
+                    },
+                    "acctype": {
+                      "type": "string"
+                    },
+                    "branch": {
+                      "type": "string"
+                    },
+                    "accnumber": {
+                      "type": "string"
+                    },
+                    "accFor": {
+                      "type": "string"
+                    },
+                    "accoperatedsince": {
+                      "type": "string"
+                    },
+                    "createdAt": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timezone_type": {
+                          "type": "integer"
+                        },
+                        "timezone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timezone_type",
+                        "timezone"
+                      ]
+                    },
+                    "modifiedAt": {
+                      "type": "object",
+                      "properties": {
+                        "date": {
+                          "type": "string"
+                        },
+                        "timezone_type": {
+                          "type": "integer"
+                        },
+                        "timezone": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "date",
+                        "timezone_type",
+                        "timezone"
+                      ]
+                    },
+                    "nachEnable": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "bothId",
+                    "accholdername",
+                    "bankname",
+                    "ifsc",
+                    "acctype",
+                    "branch",
+                    "accnumber",
+                    "accFor",
+                    "accoperatedsince",
+                    "createdAt",
+                    "modifiedAt",
+                    "nachEnable"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "borrowerUuid",
+            "firstName",
+            "dob",
+            "middleName",
+            "lastName",
+            "isItdVerified",
+            "email",
+            "mobile",
+            "altMobile",
+            "loanRequired",
+            "collegePayout",
+            "existingEmi",
+            "currentCountry",
+            "currentCity",
+            "currentState",
+            "currentAddress",
+            "currentAddressLineTwo",
+            "currentLandmark",
+            "currentPincode",
+            "currentResidenceTypeId",
+            "yearInCurrentAddress",
+            "permanentAddress",
+            "permanentLandmark",
+            "permanentCountry",
+            "permanentPincode",
+            "collegeName",
+            "collegeId",
+            "universityCountry",
+            "courseCategory",
+            "courseName",
+            "followuptime",
+            "takeIn",
+            "stream",
+            "subStream",
+            "isFldg",
+            "isExotelRegistered",
+            "streamName",
+            "subStreamName",
+            "permanentCity",
+            "permanentState",
+            "experience",
+            "year",
+            "admissionStatus",
+            "twelthmarks",
+            "twelthCity",
+            "twelthschool",
+            "twelthyear",
+            "collagemarks",
+            "ugcollegeCity",
+            "degree",
+            "collegeyear",
+            "tenthmarks",
+            "tenthschool",
+            "upwardsStatus",
+            "productType",
+            "productTypeId",
+            "productSubType",
+            "caseSource",
+            "caseSubSource",
+            "courseStartDate",
+            "panNo",
+            "courseType",
+            "courseDuration",
+            "lastCurrentCtc",
+            "netMonthlyIncome",
+            "lastCurrentEmployer",
+            "employmentStatusId",
+            "hlMtInstallment",
+            "tenor",
+            "isRepayment",
+            "course",
+            "advanceEmi",
+            "apsadvanceEmi",
+            "disbursementAmount",
+            "courseFee",
+            "utr",
+            "data",
+            "disbursementDatetime",
+            "isDisbursed",
+            "whjUserName",
+            "whjUserEmail",
+            "whjUserMobile",
+            "leadType",
+            "partnerIdentifier",
+            "disbursedId",
+            "umrn",
+            "studentFirstName",
+            "studentMiddleName",
+            "studentLastName",
+            "salutation",
+            "maritalStatus",
+            "aadharNo",
+            "new_status",
+            "lenderName",
+            "borrowerName",
+            "currentCityState",
+            "permanentCityState",
+            "banking"
+          ]
+        },
+        "cosignerData": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "cosignerId": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "middleName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "cosignerName": {
+                  "type": "string"
+                },
+                "dob": {
+                  "type": "string"
+                },
+                "mobile": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "landline": {
+                  "type": "string"
+                },
+                "cosignerEmail": {
+                  "type": "string"
+                },
+                "netMonthlyIncome": {
+                  "type": "integer"
+                },
+                "occupation": {
+                  "type": "string"
+                },
+                "relation": {
+                  "type": "string"
+                },
+                "relationProof": {
+                  "type": "string"
+                },
+                "citizeship": {
+                  "type": "string"
+                },
+                "hlMtInstallment": {
+                  "type": "integer"
+                },
+                "panNo": {
+                  "type": "string"
+                },
+                "currentCountry": {
+                  "type": "string"
+                },
+                "currentState": {
+                  "type": "string"
+                },
+                "currentCity": {
+                  "type": "string"
+                },
+                "permanentCountry": {
+                  "type": "string"
+                },
+                "permanentState": {
+                  "type": "string"
+                },
+                "permanentCity": {
+                  "type": "string"
+                },
+                "employmentStatusId": {
+                  "type": "integer"
+                },
+                "consent": {
+                  "type": "string"
+                },
+                "otpVerifiedAt": {
+                  "type": "string"
+                },
+                "olMtInstallment": {
+                  "type": "integer"
+                },
+                "banking": {
+                  "type": "array",
+                  "items": {}
+                },
+                "work": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "cosignerId": {
+                          "type": "string"
+                        },
+                        "occupation": {
+                          "type": "string"
+                        },
+                        "employmentStatusId": {
+                          "type": "integer"
+                        },
+                        "nameEmployer": {
+                          "type": "string"
+                        },
+                        "businessAddress": {
+                          "type": "string"
+                        },
+                        "businessCity": {
+                          "type": "string"
+                        },
+                        "businessState": {
+                          "type": "string"
+                        },
+                        "businessPincode": {
+                          "type": "string"
+                        },
+                        "businessCountry": {
+                          "type": "string"
+                        },
+                        "businesLandlineStd": {
+                          "type": "string"
+                        },
+                        "businessLandline": {
+                          "type": "string"
+                        },
+                        "businessExtNo": {
+                          "type": "string"
+                        },
+                        "businessDesignation": {
+                          "type": "string"
+                        },
+                        "officialEmail": {
+                          "type": "string"
+                        },
+                        "ageOfRetire": {
+                          "type": "string"
+                        },
+                        "noYear": {
+                          "type": "string"
+                        },
+                        "grossMonthly": {
+                          "type": "string"
+                        },
+                        "netMonthly": {
+                          "type": "integer"
+                        },
+                        "otherMonthlyIncome": {
+                          "type": "string"
+                        },
+                        "otherSpecify": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "modifiedAt": {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "timezone_type": {
+                              "type": "integer"
+                            },
+                            "timezone": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "timezone_type",
+                            "timezone"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "cosignerId",
+                        "occupation",
+                        "employmentStatusId",
+                        "nameEmployer",
+                        "businessAddress",
+                        "businessCity",
+                        "businessState",
+                        "businessPincode",
+                        "businessCountry",
+                        "businesLandlineStd",
+                        "businessLandline",
+                        "businessExtNo",
+                        "businessDesignation",
+                        "officialEmail",
+                        "ageOfRetire",
+                        "noYear",
+                        "grossMonthly",
+                        "netMonthly",
+                        "otherMonthlyIncome",
+                        "otherSpecify",
+                        "createdAt",
+                        "modifiedAt"
+                      ]
+                    }
+                  ]
+                },
+                "address": {
+                  "type": "array",
+                  "items": {}
+                },
+                "advance": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "cosignerId": {
+                          "type": "string"
+                        },
+                        "spouseFirstName": {
+                          "type": "string"
+                        },
+                        "spousesMiddleName": {
+                          "type": "string"
+                        },
+                        "spousesSurName": {
+                          "type": "string"
+                        },
+                        "maritalStatus": {
+                          "type": "string"
+                        },
+                        "panNo": {
+                          "type": "string"
+                        },
+                        "aadharNo": {
+                          "type": "string"
+                        },
+                        "passportNo": {
+                          "type": "string"
+                        },
+                        "qualification": {
+                          "type": "string"
+                        },
+                        "numberDependents": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "timezone_type": {
+                              "type": "integer"
+                            },
+                            "timezone": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "timezone_type",
+                            "timezone"
+                          ]
+                        },
+                        "modifiedtAt": {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "timezone_type": {
+                              "type": "integer"
+                            },
+                            "timezone": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "timezone_type",
+                            "timezone"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "cosignerId",
+                        "spouseFirstName",
+                        "spousesMiddleName",
+                        "spousesSurName",
+                        "maritalStatus",
+                        "panNo",
+                        "aadharNo",
+                        "passportNo",
+                        "qualification",
+                        "numberDependents",
+                        "createdAt",
+                        "modifiedtAt"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "cosignerId",
+                "firstName",
+                "middleName",
+                "lastName",
+                "cosignerName",
+                "dob",
+                "mobile",
+                "gender",
+                "landline",
+                "cosignerEmail",
+                "netMonthlyIncome",
+                "occupation",
+                "relation",
+                "relationProof",
+                "citizeship",
+                "hlMtInstallment",
+                "panNo",
+                "currentCountry",
+                "currentState",
+                "currentCity",
+                "permanentCountry",
+                "permanentState",
+                "permanentCity",
+                "employmentStatusId",
+                "consent",
+                "otpVerifiedAt",
+                "olMtInstallment",
+                "banking",
+                "work",
+                "address",
+                "advance"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "cosignerId": {
+                  "type": "string"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "middleName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                },
+                "cosignerName": {
+                  "type": "string"
+                },
+                "dob": {
+                  "type": "string"
+                },
+                "mobile": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "landline": {
+                  "type": "string"
+                },
+                "cosignerEmail": {
+                  "type": "string"
+                },
+                "netMonthlyIncome": {
+                  "type": "integer"
+                },
+                "occupation": {
+                  "type": "string"
+                },
+                "relation": {
+                  "type": "string"
+                },
+                "relationProof": {
+                  "type": "string"
+                },
+                "citizeship": {
+                  "type": "string"
+                },
+                "hlMtInstallment": {
+                  "type": "integer"
+                },
+                "panNo": {
+                  "type": "string"
+                },
+                "currentCountry": {
+                  "type": "string"
+                },
+                "currentState": {
+                  "type": "string"
+                },
+                "currentCity": {
+                  "type": "string"
+                },
+                "permanentCountry": {
+                  "type": "string"
+                },
+                "permanentState": {
+                  "type": "string"
+                },
+                "permanentCity": {
+                  "type": "string"
+                },
+                "employmentStatusId": {
+                  "type": "integer"
+                },
+                "consent": {
+                  "type": "string"
+                },
+                "otpVerifiedAt": {
+                  "type": "string"
+                },
+                "olMtInstallment": {
+                  "type": "integer"
+                },
+                "banking": {
+                  "type": "array",
+                  "items": {}
+                },
+                "work": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "cosignerId": {
+                          "type": "string"
+                        },
+                        "occupation": {
+                          "type": "string"
+                        },
+                        "employmentStatusId": {
+                          "type": "integer"
+                        },
+                        "nameEmployer": {
+                          "type": "string"
+                        },
+                        "businessAddress": {
+                          "type": "string"
+                        },
+                        "businessCity": {
+                          "type": "string"
+                        },
+                        "businessState": {
+                          "type": "string"
+                        },
+                        "businessPincode": {
+                          "type": "string"
+                        },
+                        "businessCountry": {
+                          "type": "string"
+                        },
+                        "businesLandlineStd": {
+                          "type": "string"
+                        },
+                        "businessLandline": {
+                          "type": "string"
+                        },
+                        "businessExtNo": {
+                          "type": "string"
+                        },
+                        "businessDesignation": {
+                          "type": "string"
+                        },
+                        "officialEmail": {
+                          "type": "string"
+                        },
+                        "ageOfRetire": {
+                          "type": "string"
+                        },
+                        "noYear": {
+                          "type": "string"
+                        },
+                        "grossMonthly": {
+                          "type": "string"
+                        },
+                        "netMonthly": {
+                          "type": "integer"
+                        },
+                        "otherMonthlyIncome": {
+                          "type": "string"
+                        },
+                        "otherSpecify": {
+                          "type": "string"
+                        },
+                        "createdAt": {
+                          "type": "string"
+                        },
+                        "modifiedAt": {
+                          "type": "object",
+                          "properties": {
+                            "date": {
+                              "type": "string"
+                            },
+                            "timezone_type": {
+                              "type": "integer"
+                            },
+                            "timezone": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "date",
+                            "timezone_type",
+                            "timezone"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "cosignerId",
+                        "occupation",
+                        "employmentStatusId",
+                        "nameEmployer",
+                        "businessAddress",
+                        "businessCity",
+                        "businessState",
+                        "businessPincode",
+                        "businessCountry",
+                        "businesLandlineStd",
+                        "businessLandline",
+                        "businessExtNo",
+                        "businessDesignation",
+                        "officialEmail",
+                        "ageOfRetire",
+                        "noYear",
+                        "grossMonthly",
+                        "netMonthly",
+                        "otherMonthlyIncome",
+                        "otherSpecify",
+                        "createdAt",
+                        "modifiedAt"
+                      ]
+                    }
+                  ]
+                },
+                "address": {
+                  "type": "array",
+                  "items": {}
+                },
+                "advance": {
+                  "type": "array",
+                  "items": {}
+                }
+              },
+              "required": [
+                "id",
+                "cosignerId",
+                "firstName",
+                "middleName",
+                "lastName",
+                "cosignerName",
+                "dob",
+                "mobile",
+                "gender",
+                "landline",
+                "cosignerEmail",
+                "netMonthlyIncome",
+                "occupation",
+                "relation",
+                "relationProof",
+                "citizeship",
+                "hlMtInstallment",
+                "panNo",
+                "currentCountry",
+                "currentState",
+                "currentCity",
+                "permanentCountry",
+                "permanentState",
+                "permanentCity",
+                "employmentStatusId",
+                "consent",
+                "otpVerifiedAt",
+                "olMtInstallment",
+                "banking",
+                "work",
+                "address",
+                "advance"
+              ]
+            }
+          ]
+        },
+        "testScoreData": {
+          "type": "array",
+          "items": {}
+        },
+        "parentData": {
+          "type": "array",
+          "items": {}
+        },
+        "status": {
+          "type": "object",
+          "properties": {
+            "present_stage": {
+              "type": "integer"
+            },
+            "percentage_completed": {
+              "type": "string"
+            },
+            "present_Status": {
+              "type": "integer"
+            },
+            "list_of_present_status": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "string"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                }
+              ]
+            },
+            "present_subStatus": {
+              "type": "string"
+            },
+            "list_of_present_substatus": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "Name": {
+                      "type": "string"
+                    },
+                    "ParentId": {
+                      "type": "integer"
+                    },
+                    "StageId": {
+                      "type": "integer"
+                    },
+                    "DefaultStatus": {
+                      "type": "integer"
+                    },
+                    "Percentage": {
+                      "type": "string"
+                    },
+                    "st_priority": {
+                      "type": "integer"
+                    },
+                    "ld_priority": {
+                      "type": "integer"
+                    },
+                    "la_priority": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "Name",
+                    "ParentId",
+                    "StageId",
+                    "DefaultStatus",
+                    "Percentage",
+                    "st_priority",
+                    "ld_priority",
+                    "la_priority"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "present_stage",
+            "percentage_completed",
+            "present_Status",
+            "list_of_present_status",
+            "present_subStatus",
+            "list_of_present_substatus"
+          ]
+        }
+      },
+      "required": [
+        "borrowerData",
+        "cosignerData",
+        "testScoreData",
+        "parentData",
+        "status"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "data",
+    "message"
+  ]
+}
